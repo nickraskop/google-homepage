@@ -101,3 +101,55 @@
 #im-feeling-lucky:hover {
     box-shadow: 0px 0px 1px .5px rgb(199, 194, 194);
 }
+
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50px;
+}
+
+#header-left {
+    display: flex;
+    justify-content: space-evenly;
+    width: 140px;
+    align-items: center;
+}
+
+#header-right {
+    display: flex;
+    justify-content: space-evenly;
+    width: 235px;
+    align-items: center;
+}
+#moongirl {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+body {
+    margin: 0px;
+}
+
+.leftnav {
+    font-size: 14px;
+    color: #222;
+    text-decoration: none;
+    font-family: roboto, arial, sans-serif;
+}
+
+.rightnav {
+    font-size: 13px;
+    font-family: arial,sans-serif;
+    color: #222;
+    text-decoration: none;
+}
+
+.leftnav:hover {
+    text-decoration: underline;
+}
+
+.rightnav:hover {
+    text-decoration: underline;
+}
