@@ -20,7 +20,7 @@
     border: 1px solid rgb(228, 224, 224);
     width: 575px;
     height: 45px;
-    border-radius: 20px;
+    border-radius: 25px;
     font-size: 20px;
 }
 
@@ -34,6 +34,10 @@
     border: transparent;
     z-index: 2;
     background: transparent;
+}
+
+#search:hover {
+    box-shadow: 0px 0px 5px 1px rgb(201, 195, 195);
 }
 
 #searchbox:focus {
@@ -56,4 +60,44 @@
     left: 8px;
     width: 24px;
     height: auto;
+}
+
+.searchbuttons {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    top: 50px;
+}
+
+#google-search {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 130px;
+    height: 36px;
+    border: transparent;
+    background: #f8f9fa;
+    color: #3c4043;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#google-search:hover {
+    box-shadow: 0px 0px 1px .5px rgb(199, 194, 194);
+}
+
+#im-feeling-lucky {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 130px;
+    height: 36px;
+    border: transparent;
+    background: #f8f9fa;
+    color: #3c4043;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#im-feeling-lucky:hover {
+    box-shadow: 0px 0px 1px .5px rgb(199, 194, 194);
 }
