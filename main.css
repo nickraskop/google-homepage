@@ -11,15 +11,28 @@
 #google-logo {
     /* background-color: gray; */
 }
+
 #search {
     position: relative;
+    margin: auto;
     top: 25px;
-    /*background-color: green; */
+    /* background-color: rgb(145, 241, 145); */
+    border: 1px solid black;
+    width: 575px;
+    height: 45px;
+    border-radius: 20px;
+    font-size: 20px;
 }
 
 #searchbox {
-    width: 575px;
-    height: 42px;
-    border-radius: 20px;
-    font-size: 20px;
+    position: relative;
+    margin: 2px auto;
+    height: 39px;
+    width: 490px;
+    font-size: 16px;
+    border: transparent;
+}
+
+#searchbox:focus {
+    outline: none;
 }
