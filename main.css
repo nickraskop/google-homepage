@@ -1,7 +1,25 @@
-.center-search {
+.main {
     position: relative;
     top: 245px;
     width: 40%;
+    height: 300px;
     margin: auto;
     text-align: center;
+    /* background-color: cyan; */
+}
+
+#google-logo {
+    /* background-color: gray; */
+}
+#search {
+    position: relative;
+    top: 25px;
+    /*background-color: green; */
+}
+
+#searchbox {
+    width: 575px;
+    height: 42px;
+    border-radius: 20px;
+    font-size: 20px;
 }
