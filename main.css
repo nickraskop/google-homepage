@@ -17,7 +17,7 @@
     margin: auto;
     top: 25px;
     /* background-color: rgb(145, 241, 145); */
-    border: 1px solid black;
+    border: 1px solid rgb(228, 224, 224);
     width: 575px;
     height: 45px;
     border-radius: 20px;
@@ -26,13 +26,34 @@
 
 #searchbox {
     position: relative;
-    margin: 2px auto;
+    left: 18px;
+    margin: 2px;
     height: 39px;
-    width: 490px;
+    width: 500px;
     font-size: 16px;
     border: transparent;
+    z-index: 2;
+    background: transparent;
 }
 
 #searchbox:focus {
     outline: none;
+}
+
+#searchicon {
+    z-index: 1;
+    position: absolute;
+    top: 4px;
+    left: 10px;
+    color: grey;
+    font-size: 20px;
+    padding: 7px 7px 7px 4px;
+}
+
+#google-microphone {
+    position: relative;
+    top: 8px;
+    left: 8px;
+    width: 24px;
+    height: auto;
 }
